@@ -1,8 +1,8 @@
-Apache Kafka 4.1.0 - Windows Setup Guide
+**Apache Kafka 4.1.0 - Windows Setup Guide**
 This guide will help you set up Apache Kafka 4.1.0 on Windows without Docker.
 
 ✅ Kafka 4.1.0 Setup on Windows (No Docker)
-Step 1: Check Java Version
+-Step 1: Check Java Version
 Kafka requires Java 17+. Run in Command Prompt:
 
 cmd
