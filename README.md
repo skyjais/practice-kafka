@@ -95,3 +95,9 @@ Start producing and consuming messages
 Apache Kafka Documentation
 
 Spring for Apache Kafka
+
+
+✅ kafbat ui without docker (to kafbat ui run this command) wdit this <path-to-application-local.yml> and  <path-to-kafbat-ui-jar>
+
+java -Dspring.config.additional-location=<path-to-application-local.yml> --add-opens java.rmi/javax.rmi.ssl=ALL-UNNAMED -jar <path-to-kafbat-ui-jar>
+//java -Dspring.config.additional-location=application-local.yml --add-opens java.rmi/javax.rmi.ssl=ALL-UNNAMED -jar kafbat-ui-v1.0.0.jar
